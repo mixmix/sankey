@@ -37,6 +37,9 @@
       "name": "rich"
     },
     {
+      "name": "TAs"
+    },
+    {
       "name": "jamie"
     },
     {
@@ -113,6 +116,11 @@
       "source": "teaching",
       "target": "rich",
       "value": 5000
+    },
+    {
+      "source": "teaching",
+      "target": "TAs",
+      "value": 2500
     },
     {
       "source": "relationship",
