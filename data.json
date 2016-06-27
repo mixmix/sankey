@@ -7,13 +7,19 @@
       "name": "teaching"
     },
     {
-      "name": "relationship"
+      "name": "contingency"
+    },
+    {
+      "name": "catalyst"
+    },
+    {
+      "name": "core"
     },
     {
       "name": "marketing"
     },
     {
-      "name": "catalyst"
+      "name": "relationship"
     },
     {
       "name": "mix"
@@ -44,6 +50,12 @@
     },
     {
       "name": "billy"
+    },
+    {
+      "name": "contingency stuff"
+    },
+    {
+      "name": "core stuff"
     }
   ],
   "links": [
@@ -54,17 +66,27 @@
     },
     {
       "source": "eda",
-      "target": "relationship",
-      "value": 16000
-    },
-    {
-      "source": "eda",
-      "target": "marketing",
-      "value": 20000
+      "target": "contingency",
+      "value": 12000
     },
     {
       "source": "eda",
       "target": "catalyst",
+      "value": 8000
+    },
+    {
+      "source": "eda",
+      "target": "core",
+      "value": 8000
+    },
+    {
+      "source": "eda",
+      "target": "marketing",
+      "value": 8000
+    },
+    {
+      "source": "eda",
+      "target": "relationship",
       "value": 8000
     },
     {
@@ -116,6 +138,16 @@
       "source": "catalyst",
       "target": "billy",
       "value": 2000
+    },
+    {
+      "source": "contingency",
+      "target": "contingency stuff",
+      "value": 10000
+    },
+    {
+      "source": "core",
+      "target": "core stuff",
+      "value": 7000
     }
   ]
 }
