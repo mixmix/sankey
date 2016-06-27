@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "name": "eda"
+    },
+    {
+      "name": "teaching"
+    },
+    {
+      "name": "relationship"
+    },
+    {
+      "name": "marketing"
+    },
+    {
+      "name": "catalyst"
+    },
+    {
+      "name": "mix"
+    },
+    {
+      "name": "piet"
+    },
+    {
+      "name": "joseph"
+    },
+    {
+      "name": "don"
+    },
+    {
+      "name": "rich"
+    },
+    {
+      "name": "jamie"
+    },
+    {
+      "name": "sarah"
+    },
+    {
+      "name": "michael"
+    },
+    {
+      "name": "jv"
+    },
+    {
+      "name": "billy"
+    }
+  ],
+  "links": [
+    {
+      "source": "eda",
+      "target": "teaching",
+      "value": 36000
+    },
+    {
+      "source": "eda",
+      "target": "relationship",
+      "value": 16000
+    },
+    {
+      "source": "eda",
+      "target": "marketing",
+      "value": 20000
+    },
+    {
+      "source": "eda",
+      "target": "catalyst",
+      "value": 8000
+    },
+    {
+      "source": "teaching",
+      "target": "mix",
+      "value": 5200
+    },
+    {
+      "source": "teaching",
+      "target": "piet",
+      "value": 6250
+    },
+    {
+      "source": "teaching",
+      "target": "joseph",
+      "value": 5000
+    },
+    {
+      "source": "teaching",
+      "target": "don",
+      "value": 10000
+    },
+    {
+      "source": "teaching",
+      "target": "rich",
+      "value": 5000
+    },
+    {
+      "source": "relationship",
+      "target": "jamie",
+      "value": 5000
+    },
+    {
+      "source": "relationship",
+      "target": "sarah",
+      "value": 2500
+    },
+    {
+      "source": "marketing",
+      "target": "michael",
+      "value": 5000
+    },
+    {
+      "source": "catalyst",
+      "target": "jv",
+      "value": 7000
+    },
+    {
+      "source": "catalyst",
+      "target": "billy",
+      "value": 2000
+    }
+  ]
+}
