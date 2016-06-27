@@ -59,7 +59,7 @@ data.links = orgToPods.map( function(entry) {
     }
   }))
 
-fs.writeFile( path.join(__dirname, 'data.json'), JSON.stringify(data, null, 2), function(err) {
+fs.writeFile( path.join(__dirname, 'public', 'data.json'), JSON.stringify(data, null, 2), function(err) {
   if (err) {
     console.log(err)
   } else {
