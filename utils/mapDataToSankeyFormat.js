@@ -5,6 +5,8 @@ var mapDataToSankeyFormat = function(inputData) {
   var podToEntity = inputData.podToEntity
   var data = {}  
 
+  // fudge is needed while data.nodes is built just from 'to' fields
+
   var fudge = [{to: 'bootcamp'}, {to: 'placements'}]
 
   data.nodes = fudge.concat(orgToPods).concat(podToEntity)

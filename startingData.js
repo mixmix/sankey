@@ -35,6 +35,9 @@ var data = {
     { from: 'catalyst', to: 'susan', amount: 2000 },
     { from: 'catalyst', to: 'silvia', amount: 2500 },
 
+
+    // this is made up so graph draws right
+
     { from: 'contingency', to: 'contingency stuff', amount: 10000 },
     { from: 'core', to: 'core stuff',        amount: 7000 },
 

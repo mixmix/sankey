@@ -84,6 +84,9 @@ var data = {
     { from: 'catalyst', to: 'susan', amount: 2000 },
     { from: 'catalyst', to: 'silvia', amount: 2500 },
 
+
+    // this is made up so graph draws right
+
     { from: 'contingency', to: 'contingency stuff', amount: 10000 },
     { from: 'core', to: 'core stuff',        amount: 7000 },
 
@@ -103,6 +106,8 @@ var mapDataToSankeyFormat = function(inputData) {
   var orgToPods = inputData.orgToPods
   var podToEntity = inputData.podToEntity
   var data = {}  
+
+  // fudge is needed while data.nodes is built just from 'to' fields
 
   var fudge = [{to: 'bootcamp'}, {to: 'placements'}]
 
