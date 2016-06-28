@@ -67,6 +67,7 @@ var data = {
     { from: 'teaching', to: 'joseph', amount: 5000 },
     { from: 'teaching', to: 'don',    amount: 10000 },
     { from: 'teaching', to: 'rich',   amount: 6666 },
+    { from: 'teaching', to: 'tony',   amount: 5000 },
     { from: 'teaching', to: 'TAs',    amount: 2500 },
     { from: 'teaching', to: 'sarrah',  amount: 1930 },
 
@@ -88,7 +89,8 @@ var data = {
     // this is made up so graph draws right
 
     { from: 'contingency', to: 'contingency stuff', amount: 10000 },
-    { from: 'core', to: 'core stuff',        amount: 7000 },
+
+    { from: 'core', to: 'core stuff', amount: 7000 },
 
     // 
 
