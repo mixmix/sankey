@@ -5,7 +5,9 @@ var mapDataToSankeyFormat = function(inputData) {
   var podToEntity = inputData.podToEntity
   var data = {}  
 
-  data.nodes = [{to: 'eda'}].concat(orgToPods).concat(podToEntity)
+  var fudge = [{to: 'bootcamp'}, {to: 'placements'}]
+
+  data.nodes = fudge.concat(orgToPods).concat(podToEntity)
     .map( function(el) { return el.to } )
     .reduce( function(prev, curr) {
         if (prev.indexOf(curr) == -1) return prev.concat(curr)

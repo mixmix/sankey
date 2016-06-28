@@ -53,9 +53,9 @@ var render = function(data) {
  
 // add the link titles
   link.append("title")
-      .text(function(d) {
-        return d.source.name + " → " + d.target.name + "\n" + format(d.value)
-       })
+    .text(function(d) {
+      return d.source.name + " → " + d.target.name + "\n" + format(d.value)
+    })
  
 // add in the nodes
   var node = svg.append("g").selectAll(".node")
