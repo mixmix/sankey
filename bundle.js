@@ -92,7 +92,9 @@ var data = {
 
     // 
 
-    { from: 'placements', to: 'relationship', amount: 10500 },
+    { from: 'placements', to: 'relationship', amount: 1000 },
+    // ideally
+    //{ from: 'placements', to: 'relationship', amount: 10500 },
   ]
 }
 
