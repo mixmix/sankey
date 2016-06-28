@@ -18,3 +18,8 @@
 .link:hover {
   stroke-opacity: .5;
 }
+
+i {
+  color: grey;
+  font-size: 0.8rem;
+}
