@@ -68,10 +68,10 @@ var data = {
     { from: 'teaching', to: 'don',    amount: 10000 },
     { from: 'teaching', to: 'rich',   amount: 5000 },
     { from: 'teaching', to: 'TAs',    amount: 2500 },
+    { from: 'teaching', to: 'sarah',  amount: 1930 },
 
     { from: 'relationship', to: 'rohan', amount: 8000 },
     { from: 'relationship', to: 'jamie', amount: 8000 },
-    { from: 'relationship', to: 'sarah', amount: 2500 },
 
     { from: 'marketing', to: 'mike',  amount: 4000 },
     { from: 'marketing', to: 'moly',  amount: 1275 },
