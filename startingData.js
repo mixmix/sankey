@@ -24,6 +24,7 @@ var data = {
 
     { from: 'relationship', to: 'rohan', amount: 8000 },
     { from: 'relationship', to: 'jamie', amount: 8000 },
+    { from: 'relationship', to: 'es',    amount: 4000 },
 
     { from: 'marketing', to: 'mike',  amount: 4000 },
     { from: 'marketing', to: 'moly',  amount: 1275 },
@@ -45,7 +46,7 @@ var data = {
 
     // 
 
-    { from: 'placements', to: 'relationship', amount: 10500 },
+    { from: 'placements', to: 'relationship', amount: 1 },
     // ideally
     //{ from: 'placements', to: 'relationship', amount: 10500 },
   ]
