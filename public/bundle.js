@@ -62,14 +62,17 @@ var data = {
   ],
 
   podToEntity: [
-    { from: 'teaching', to: 'mix',    amount: 5200 },
+    { from: 'teaching', to: 'mix',    amount: 5000 },
     { from: 'teaching', to: 'piet',   amount: 6250 },
     { from: 'teaching', to: 'joseph', amount: 5000 },
+    { from: 'teaching', to: 'TAs',    amount: 2500 },
+    { from: 'teaching', to: 'sarrah',  amount: 1930 },
+
     { from: 'teaching', to: 'don',    amount: 10000 },
     { from: 'teaching', to: 'rich',   amount: 6666 },
     { from: 'teaching', to: 'tony',   amount: 5000 },
-    { from: 'teaching', to: 'TAs',    amount: 2500 },
-    { from: 'teaching', to: 'sarrah',  amount: 1930 },
+    { from: 'teaching', to: 'juliet',  amount: 3000 },
+    { from: 'teaching', to: 'kristina',  amount: 1000 },
 
     { from: 'relationship', to: 'rohan', amount: 8000 },
     { from: 'relationship', to: 'jamie', amount: 8000 },
